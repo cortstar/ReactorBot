@@ -47,5 +47,5 @@ async def on_message(message):
             except:
                 print("other exception")
 
-
+#fake key, input your own for production
 client.run('NDEyNDc4NDc5NTk0OTQ2NTYw.DWLECw.n5CkAmZGEUF_4iMGhfZH_zolA5U')
