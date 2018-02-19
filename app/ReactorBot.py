@@ -11,7 +11,7 @@ client = discord.Client()
 user_emoji_pairs = {}
 
 #parse the config file
-config_file = open("config", "r")
+config_file = open("config.txt", "r")
 
 for line in config_file.readlines()[1:]:
     args = line.split("~")
@@ -48,4 +48,4 @@ async def on_message(message):
                 print("other exception")
 
 #fake key, input your own for production
-client.run('NDEyNDc4NDc5NTk0OTQ2NTYw.DWLECw.n5CkAmZGEUF_4iMGhfZH_zolA5U')
+client.run('NDEyNDc4NDc5NTk0OTQ2NTYw.DWLPoQ.WL3KXewLT3eAPsrfoNTqW0D_a2E')
